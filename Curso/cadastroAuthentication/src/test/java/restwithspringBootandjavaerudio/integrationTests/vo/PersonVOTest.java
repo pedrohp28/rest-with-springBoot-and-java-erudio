@@ -1,7 +1,10 @@
 package restwithspringBootandjavaerudio.integrationTests.vo;
 
+import jakarta.xml.bind.annotation.XmlRootElement;
+
 import java.io.Serializable;
 
+@XmlRootElement
 public class PersonVOTest implements Serializable {
 
     private static final long serialVersionUID = 1L;
